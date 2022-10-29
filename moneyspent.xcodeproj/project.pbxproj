@@ -11,6 +11,17 @@
 		4914D3EA28F8568300306B40 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4914D3E928F8568300306B40 /* ContentView.swift */; };
 		4914D3EC28F8568400306B40 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4914D3EB28F8568400306B40 /* Assets.xcassets */; };
 		4914D3EF28F8568400306B40 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4914D3EE28F8568400306B40 /* Preview Assets.xcassets */; };
+		4914D3F828F856D000306B40 /* DayModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4914D3F728F856D000306B40 /* DayModel.swift */; };
+		4914D3FA28F8574200306B40 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4914D3F928F8574200306B40 /* ViewModel.swift */; };
+		499B4A6528FB35EE005B820F /* AddMoneyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499B4A6428FB35EE005B820F /* AddMoneyView.swift */; };
+		499B4A6728FB39F9005B820F /* Help.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499B4A6628FB39F9005B820F /* Help.swift */; };
+		499B4A6928FB3B46005B820F /* SubView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499B4A6828FB3B46005B820F /* SubView.swift */; };
+		499B4A6B28FC7650005B820F /* CurrencyTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499B4A6A28FC7650005B820F /* CurrencyTextField.swift */; };
+		499B4A6F28FC9971005B820F /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499B4A6E28FC9971005B820F /* ListView.swift */; };
+		499B4A7128FC9A80005B820F /* CallToActionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499B4A7028FC9A80005B820F /* CallToActionButton.swift */; };
+		499B4A7328FC9EFC005B820F /* ListDayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499B4A7228FC9EFC005B820F /* ListDayView.swift */; };
+		499B4A7528FCA111005B820F /* SortButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499B4A7428FCA111005B820F /* SortButton.swift */; };
+		499B4A7928FCA250005B820F /* ChangeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499B4A7828FCA250005B820F /* ChangeButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +30,17 @@
 		4914D3E928F8568300306B40 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		4914D3EB28F8568400306B40 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4914D3EE28F8568400306B40 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4914D3F728F856D000306B40 /* DayModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayModel.swift; sourceTree = "<group>"; };
+		4914D3F928F8574200306B40 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		499B4A6428FB35EE005B820F /* AddMoneyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddMoneyView.swift; sourceTree = "<group>"; };
+		499B4A6628FB39F9005B820F /* Help.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Help.swift; sourceTree = "<group>"; };
+		499B4A6828FB3B46005B820F /* SubView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubView.swift; sourceTree = "<group>"; };
+		499B4A6A28FC7650005B820F /* CurrencyTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyTextField.swift; sourceTree = "<group>"; };
+		499B4A6E28FC9971005B820F /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
+		499B4A7028FC9A80005B820F /* CallToActionButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallToActionButton.swift; sourceTree = "<group>"; };
+		499B4A7228FC9EFC005B820F /* ListDayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListDayView.swift; sourceTree = "<group>"; };
+		499B4A7428FCA111005B820F /* SortButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortButton.swift; sourceTree = "<group>"; };
+		499B4A7828FCA250005B820F /* ChangeButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +75,9 @@
 			children = (
 				4914D3E728F8568300306B40 /* moneyspentApp.swift */,
 				4914D3E928F8568300306B40 /* ContentView.swift */,
+				499B4A6628FB39F9005B820F /* Help.swift */,
+				499B4A6D28FC85B0005B820F /* Model */,
+				499B4A6C28FC859D005B820F /* Views */,
 				4914D3EB28F8568400306B40 /* Assets.xcassets */,
 				4914D3ED28F8568400306B40 /* Preview Content */,
 			);
@@ -65,6 +90,46 @@
 				4914D3EE28F8568400306B40 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		499B4A6C28FC859D005B820F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				499B4A7628FCA191005B820F /* List */,
+				499B4A7728FCA1DB005B820F /* Sub */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		499B4A6D28FC85B0005B820F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4914D3F928F8574200306B40 /* ViewModel.swift */,
+				4914D3F728F856D000306B40 /* DayModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		499B4A7628FCA191005B820F /* List */ = {
+			isa = PBXGroup;
+			children = (
+				499B4A6E28FC9971005B820F /* ListView.swift */,
+				499B4A7228FC9EFC005B820F /* ListDayView.swift */,
+				499B4A7028FC9A80005B820F /* CallToActionButton.swift */,
+				499B4A7428FCA111005B820F /* SortButton.swift */,
+			);
+			path = List;
+			sourceTree = "<group>";
+		};
+		499B4A7728FCA1DB005B820F /* Sub */ = {
+			isa = PBXGroup;
+			children = (
+				499B4A6828FB3B46005B820F /* SubView.swift */,
+				499B4A7828FCA250005B820F /* ChangeButton.swift */,
+				499B4A6A28FC7650005B820F /* CurrencyTextField.swift */,
+				499B4A6428FB35EE005B820F /* AddMoneyView.swift */,
+			);
+			path = Sub;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +202,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				499B4A6528FB35EE005B820F /* AddMoneyView.swift in Sources */,
+				499B4A7928FCA250005B820F /* ChangeButton.swift in Sources */,
+				4914D3F828F856D000306B40 /* DayModel.swift in Sources */,
+				499B4A7128FC9A80005B820F /* CallToActionButton.swift in Sources */,
+				499B4A6728FB39F9005B820F /* Help.swift in Sources */,
+				499B4A7328FC9EFC005B820F /* ListDayView.swift in Sources */,
 				4914D3EA28F8568300306B40 /* ContentView.swift in Sources */,
+				4914D3FA28F8574200306B40 /* ViewModel.swift in Sources */,
+				499B4A7528FCA111005B820F /* SortButton.swift in Sources */,
+				499B4A6928FB3B46005B820F /* SubView.swift in Sources */,
+				499B4A6B28FC7650005B820F /* CurrencyTextField.swift in Sources */,
 				4914D3E828F8568300306B40 /* moneyspentApp.swift in Sources */,
+				499B4A6F28FC9971005B820F /* ListView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,6 +343,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"moneyspent/Preview Content\"";
+				DEVELOPMENT_TEAM = UDND6CWA46;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -295,6 +372,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"moneyspent/Preview Content\"";
+				DEVELOPMENT_TEAM = UDND6CWA46;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
